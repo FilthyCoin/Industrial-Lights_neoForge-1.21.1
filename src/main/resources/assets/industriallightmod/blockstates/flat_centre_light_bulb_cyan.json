@@ -1,0 +1,29 @@
+{
+  "variants": {
+    "powered=false,face=wall,facing=north": { "model": "industriallightmod:block/flat_centre_light_bulb_cyan_off","x":90, "z": 90  },
+    "powered=false,face=wall,facing=south": { "model": "industriallightmod:block/flat_centre_light_bulb_cyan_off","x":90, "y":  180},
+    "powered=false,face=wall,facing=west": { "model": "industriallightmod:block/flat_centre_light_bulb_cyan_off","x":90, "y":  270},
+    "powered=false,face=wall,facing=east": { "model": "industriallightmod:block/flat_centre_light_bulb_cyan_off","x":90, "y":  90},
+    "powered=false,face=ceiling,facing=north": { "model": "industriallightmod:block/flat_centre_light_bulb_cyan_off", "x": 180, "z": 90  },
+    "powered=false,face=ceiling,facing=south": { "model": "industriallightmod:block/flat_centre_light_bulb_cyan_off", "x": 180, "y":  180, "z": 90 },
+    "powered=false,face=ceiling,facing=west": { "model": "industriallightmod:block/flat_centre_light_bulb_cyan_off", "x": 180, "y":  270, "z": 90 },
+    "powered=false,face=ceiling,facing=east": { "model": "industriallightmod:block/flat_centre_light_bulb_cyan_off", "x": 180, "y":  90, "z": 90 },
+    "powered=false,face=floor,facing=north": { "model": "industriallightmod:block/flat_centre_light_bulb_cyan_off",  "y":  180 },
+    "powered=false,face=floor,facing=south": { "model": "industriallightmod:block/flat_centre_light_bulb_cyan_off"},
+    "powered=false,face=floor,facing=west": { "model": "industriallightmod:block/flat_centre_light_bulb_cyan_off", "y":  90 },
+    "powered=false,face=floor,facing=east": { "model": "industriallightmod:block/flat_centre_light_bulb_cyan_off", "y":  270 },
+
+    "powered=true,face=wall,facing=north": { "model": "industriallightmod:block/flat_centre_light_bulb_cyan","x":90, "z": 90  },
+    "powered=true,face=wall,facing=south": { "model": "industriallightmod:block/flat_centre_light_bulb_cyan","x":90, "y":  180},
+    "powered=true,face=wall,facing=west": { "model": "industriallightmod:block/flat_centre_light_bulb_cyan","x":90, "y":  270},
+    "powered=true,face=wall,facing=east": { "model": "industriallightmod:block/flat_centre_light_bulb_cyan","x":90, "y":  90},
+    "powered=true,face=ceiling,facing=north": { "model": "industriallightmod:block/flat_centre_light_bulb_cyan", "x": 180, "z": 90  },
+    "powered=true,face=ceiling,facing=south": { "model": "industriallightmod:block/flat_centre_light_bulb_cyan", "x": 180, "y":  180, "z": 90 },
+    "powered=true,face=ceiling,facing=west": { "model": "industriallightmod:block/flat_centre_light_bulb_cyan", "x": 180, "y":  270, "z": 90 },
+    "powered=true,face=ceiling,facing=east": { "model": "industriallightmod:block/flat_centre_light_bulb_cyan", "x": 180, "y":  90, "z": 90 },
+    "powered=true,face=floor,facing=north": { "model": "industriallightmod:block/flat_centre_light_bulb_cyan" , "y":  180 },
+    "powered=true,face=floor,facing=south": { "model": "industriallightmod:block/flat_centre_light_bulb_cyan"},
+    "powered=true,face=floor,facing=west": { "model": "industriallightmod:block/flat_centre_light_bulb_cyan", "y":  90 },
+    "powered=true,face=floor,facing=east": { "model": "industriallightmod:block/flat_centre_light_bulb_cyan",  "y":  270 }
+  }
+}

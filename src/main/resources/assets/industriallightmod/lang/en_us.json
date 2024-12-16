@@ -1,0 +1,30 @@
+{
+
+  "itemGroup.industriallightmod.light_wrench_tab": "Industrial Light Mod",
+
+
+  "item.industriallightmod.light_wrench": "Light Wrench",
+
+  "block.industriallightmod.industrial_light_blue": "Blue Industrial Light",
+  "block.industriallightmod.industrial_light_white": "White Industrial Light",
+
+
+  "block.industriallightmod.flat_centre_light_bulb_white": "White Flat Light",
+  "block.industriallightmod.flat_centre_light_bulb_red": "Red Flat Light",
+  "block.industriallightmod.flat_centre_light_bulb_black": "Black Flat Light",
+  "block.industriallightmod.flat_centre_light_bulb_blue": "Blue Flat Light",
+  "block.industriallightmod.flat_centre_light_bulb_light_blue": "Light Blue Flat Light",
+  "block.industriallightmod.flat_centre_light_bulb_brown": "Brown Flat Light",
+  "block.industriallightmod.flat_centre_light_bulb_grey": "Grey Flat Light",
+  "block.industriallightmod.flat_centre_light_bulb_light_grey": "Light Grey Flat Light",
+  "block.industriallightmod.flat_centre_light_bulb_green": "Green Flat Light",
+  "block.industriallightmod.flat_centre_light_bulb_cyan": "Cyan Flat Light",
+  "block.industriallightmod.flat_centre_light_bulb_lime": "Lime Flat Light",
+  "block.industriallightmod.flat_centre_light_bulb_magenta": "Magenta Flat Light",
+  "block.industriallightmod.flat_centre_light_bulb_pink": "Pink Flat Light",
+  "block.industriallightmod.flat_centre_light_bulb_purple": "Purple Flat Light",
+  "block.industriallightmod.flat_centre_light_bulb_orange": "Orange Flat Light",
+  "block.industriallightmod.flat_centre_light_bulb_yellow": "Yellow Flat Light"
+
+
+}
