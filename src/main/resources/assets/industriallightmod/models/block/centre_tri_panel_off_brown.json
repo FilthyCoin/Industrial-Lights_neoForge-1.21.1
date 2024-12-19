@@ -1,0 +1,11 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "industriallightmod:block/centre_tri_panel_white",
+	"textures": {
+		"1": "industriallightmod:block/full_panel_brown_off",
+		"2": "industriallightmod:block/black_back",
+		"3": "industriallightmod:block/grey_panel",
+		"4": "industriallightmod:block/black_panel",
+		"particle": "industriallightmod:block/full_panel_brown_off"
+	}
+}

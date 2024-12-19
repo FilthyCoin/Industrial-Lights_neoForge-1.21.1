@@ -2,10 +2,16 @@ package com.theunknowndad.industriallightmod.block;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
+import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
+import net.minecraft.world.ItemInteractionResult;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.DyeItem;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.Level;
@@ -35,7 +41,6 @@ public class IndustrialLight extends GrindstoneBlock {
     public static final VoxelShape WALL_EAST_GRINDSTONE = Block.box(0, 5, 5, 8, 11, 11);
     public static final VoxelShape CEILING_NORTH_SOUTH_GRINDSTONE = Block.box(5, 8, 5, 11, 16, 11);
     public static final VoxelShape CEILING_EAST_WEST_GRINDSTONE = Block.box(5, 8, 5, 11, 16, 11);
-
 
     private VoxelShape getVoxelShape(BlockState state) {
         Direction direction = state.getValue(FACING);
@@ -72,7 +77,6 @@ public class IndustrialLight extends GrindstoneBlock {
     @Nullable
     public BlockState getStateForPlacement(BlockPlaceContext context) {
         Direction[] var2 = context.getNearestLookingDirections();
-        int var3 = var2.length;
 
         for (Direction direction : var2) {
             BlockState blockstate;
@@ -124,6 +128,48 @@ public class IndustrialLight extends GrindstoneBlock {
             return InteractionResult.SUCCESS;
         }
         return InteractionResult.SUCCESS;
+    }
+
+    @Override
+    protected @NotNull ItemInteractionResult useItemOn(@NotNull ItemStack stack, @NotNull BlockState state, @NotNull Level level, @NotNull BlockPos pos, Player player, @NotNull InteractionHand hand, @NotNull BlockHitResult hitResult) {
+
+        ItemStack heldItem = player.getItemInHand(hand);
+
+        if (heldItem.getItem() instanceof DyeItem dyeItem) {
+
+            String colorName = dyeItem.getDyeColor().getName();
+            String blockName = "industriallightmod:industrial_light_" + colorName;
+            Block newBlock = BuiltInRegistries.BLOCK.getOptional(ResourceLocation.parse(blockName))
+                    .orElse(null);
+
+            if (newBlock == null || state.getBlock() == newBlock) {
+                return ItemInteractionResult.PASS_TO_DEFAULT_BLOCK_INTERACTION;
+            }
+
+            BlockState newState = newBlock.defaultBlockState()
+                    .setValue(POWERED, state.getValue(POWERED))
+                    .setValue(FACE, state.getValue(FACE))
+                    .setValue(FACING, state.getValue(FACING));
+
+            level.setBlock(pos, newState, 3);
+            level.playSound(null, pos, SoundEvents.WOOL_PLACE, SoundSource.BLOCKS, 1.0F, 1.0F);
+
+            if (!player.isCreative()) {
+                heldItem.shrink(1);
+            }
+
+            return ItemInteractionResult.SUCCESS;
+
+        }
+        else if (!level.isClientSide) {
+            boolean currentState = state.getValue(POWERED);
+            level.setBlock(pos, state.setValue(POWERED, !currentState), 3);
+            level.playSound(null, player.blockPosition(), SoundEvents.WOODEN_BUTTON_CLICK_OFF, SoundSource.BLOCKS, 1f, 1.5f);
+
+            return ItemInteractionResult.SUCCESS;
+        }
+
+        return ItemInteractionResult.PASS_TO_DEFAULT_BLOCK_INTERACTION;
     }
 }
 

@@ -1,0 +1,9 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "industriallightmod:block/small_centre_bulb_white",
+	"textures": {
+		"0": "industriallightmod:block/full_panel_purple_off",
+		"1": "industriallightmod:block/black_back",
+		"particle": "industriallightmod:block/full_panel_purple_off"
+	}
+}

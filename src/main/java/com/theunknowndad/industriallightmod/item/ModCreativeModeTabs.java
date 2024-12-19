@@ -22,9 +22,57 @@ public class ModCreativeModeTabs {
                         .icon(() -> new ItemStack(ModItems.LIGHT_WRENCH.get()))
                         .displayItems((pParameters, pOutput) -> {
                             pOutput.accept(ModItems.LIGHT_WRENCH);
-                            pOutput.accept(ModBlocks.INDUSTRIAL_LIGHT_BLUE);
-                            pOutput.accept(ModBlocks.INDUSTRIAL_LIGHT_WHITE);
 
+                            pOutput.accept(ModBlocks.CENTRE_FULL_PANEL_BLACK);
+                            pOutput.accept(ModBlocks.CENTRE_FULL_PANEL_BLUE);
+                            pOutput.accept(ModBlocks.CENTRE_FULL_PANEL_BROWN);
+                            pOutput.accept(ModBlocks.CENTRE_FULL_PANEL_CYAN);
+                            pOutput.accept(ModBlocks.CENTRE_FULL_PANEL_GREEN);
+                            pOutput.accept(ModBlocks.CENTRE_FULL_PANEL_GREY);
+                            pOutput.accept(ModBlocks.CENTRE_FULL_PANEL_LIGHT_BLUE);
+                            pOutput.accept(ModBlocks.CENTRE_FULL_PANEL_LIGHT_GREY);
+                            pOutput.accept(ModBlocks.CENTRE_FULL_PANEL_LIME);
+                            pOutput.accept(ModBlocks.CENTRE_FULL_PANEL_MAGENTA);
+                            pOutput.accept(ModBlocks.CENTRE_FULL_PANEL_ORANGE);
+                            pOutput.accept(ModBlocks.CENTRE_FULL_PANEL_PINK);
+                            pOutput.accept(ModBlocks.CENTRE_FULL_PANEL_PURPLE);
+                            pOutput.accept(ModBlocks.CENTRE_FULL_PANEL_RED);
+                            pOutput.accept(ModBlocks.CENTRE_FULL_PANEL_WHITE);
+                            pOutput.accept(ModBlocks.CENTRE_FULL_PANEL_YELLOW);
+
+                            pOutput.accept(ModBlocks.CENTRE_TRI_PANEL_BLACK);
+                            pOutput.accept(ModBlocks.CENTRE_TRI_PANEL_BLUE);
+                            pOutput.accept(ModBlocks.CENTRE_TRI_PANEL_BROWN);
+                            pOutput.accept(ModBlocks.CENTRE_TRI_PANEL_CYAN);
+                            pOutput.accept(ModBlocks.CENTRE_TRI_PANEL_GREEN);
+                            pOutput.accept(ModBlocks.CENTRE_TRI_PANEL_GREY);
+                            pOutput.accept(ModBlocks.CENTRE_TRI_PANEL_LIGHT_BLUE);
+                            pOutput.accept(ModBlocks.CENTRE_TRI_PANEL_LIGHT_GREY);
+                            pOutput.accept(ModBlocks.CENTRE_TRI_PANEL_LIME);
+                            pOutput.accept(ModBlocks.CENTRE_TRI_PANEL_MAGENTA);
+                            pOutput.accept(ModBlocks.CENTRE_TRI_PANEL_ORANGE);
+                            pOutput.accept(ModBlocks.CENTRE_TRI_PANEL_PINK);
+                            pOutput.accept(ModBlocks.CENTRE_TRI_PANEL_PURPLE);
+                            pOutput.accept(ModBlocks.CENTRE_TRI_PANEL_RED);
+                            pOutput.accept(ModBlocks.CENTRE_TRI_PANEL_WHITE);
+                            pOutput.accept(ModBlocks.CENTRE_TRI_PANEL_YELLOW);
+
+                            pOutput.accept(ModBlocks.INDUSTRIAL_LIGHT_BLACK);
+                            pOutput.accept(ModBlocks.INDUSTRIAL_LIGHT_BLUE);
+                            pOutput.accept(ModBlocks.INDUSTRIAL_LIGHT_BROWN);
+                            pOutput.accept(ModBlocks.INDUSTRIAL_LIGHT_CYAN);
+                            pOutput.accept(ModBlocks.INDUSTRIAL_LIGHT_GREEN);
+                            pOutput.accept(ModBlocks.INDUSTRIAL_LIGHT_GREY);
+                            pOutput.accept(ModBlocks.INDUSTRIAL_LIGHT_LIGHT_BLUE);
+                            pOutput.accept(ModBlocks.INDUSTRIAL_LIGHT_LIGHT_GREY);
+                            pOutput.accept(ModBlocks.INDUSTRIAL_LIGHT_LIME);
+                            pOutput.accept(ModBlocks.INDUSTRIAL_LIGHT_MAGENTA);
+                            pOutput.accept(ModBlocks.INDUSTRIAL_LIGHT_ORANGE);
+                            pOutput.accept(ModBlocks.INDUSTRIAL_LIGHT_PINK);
+                            pOutput.accept(ModBlocks.INDUSTRIAL_LIGHT_PURPLE);
+                            pOutput.accept(ModBlocks.INDUSTRIAL_LIGHT_RED);
+                            pOutput.accept(ModBlocks.INDUSTRIAL_LIGHT_WHITE);
+                            pOutput.accept(ModBlocks.INDUSTRIAL_LIGHT_YELLOW);
 
                             pOutput.accept(ModBlocks.FLAT_CENTRE_LIGHT_BULB_BLACK);
                             pOutput.accept(ModBlocks.FLAT_CENTRE_LIGHT_BULB_BLUE);
@@ -43,6 +91,24 @@ public class ModCreativeModeTabs {
                             pOutput.accept(ModBlocks.FLAT_CENTRE_LIGHT_BULB_WHITE);
                             pOutput.accept(ModBlocks.FLAT_CENTRE_LIGHT_BULB_YELLOW);
 
+                            pOutput.accept(ModBlocks.SMALL_CENTRE_BULB_BLACK);
+                            pOutput.accept(ModBlocks.SMALL_CENTRE_BULB_BLUE);
+                            pOutput.accept(ModBlocks.SMALL_CENTRE_BULB_BROWN);
+                            pOutput.accept(ModBlocks.SMALL_CENTRE_BULB_CYAN);
+                            pOutput.accept(ModBlocks.SMALL_CENTRE_BULB_GREEN);
+                            pOutput.accept(ModBlocks.SMALL_CENTRE_BULB_GREY);
+                            pOutput.accept(ModBlocks.SMALL_CENTRE_BULB_LIGHT_BLUE);
+                            pOutput.accept(ModBlocks.SMALL_CENTRE_BULB_LIGHT_GREY);
+                            pOutput.accept(ModBlocks.SMALL_CENTRE_BULB_LIME);
+                            pOutput.accept(ModBlocks.SMALL_CENTRE_BULB_MAGENTA);
+                            pOutput.accept(ModBlocks.SMALL_CENTRE_BULB_ORANGE);
+                            pOutput.accept(ModBlocks.SMALL_CENTRE_BULB_PINK);
+                            pOutput.accept(ModBlocks.SMALL_CENTRE_BULB_PURPLE);
+                            pOutput.accept(ModBlocks.SMALL_CENTRE_BULB_RED);
+                            pOutput.accept(ModBlocks.SMALL_CENTRE_BULB_WHITE);
+                            pOutput.accept(ModBlocks.SMALL_CENTRE_BULB_YELLOW);
+
+                            pOutput.accept(ModBlocks.THICK_HORIZONTAL_LIGHT_WHITE);
 
                         }).build());
 
