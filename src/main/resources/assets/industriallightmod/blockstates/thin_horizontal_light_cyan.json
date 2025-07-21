@@ -1,0 +1,109 @@
+
+{
+  "variants": {
+    "facing=north,half=bottom,shape=straight,powered=false": {"model": "industriallightmod:block/thin_horizontal_light_off_cyan", "y": 180},
+    "facing=south,half=bottom,shape=straight,powered=false": {"model": "industriallightmod:block/thin_horizontal_light_off_cyan"},
+    "facing=west,half=bottom,shape=straight,powered=false": {"model": "industriallightmod:block/thin_horizontal_light_off_cyan","y": 90},
+    "facing=east,half=bottom,shape=straight,powered=false": {"model": "industriallightmod:block/thin_horizontal_light_off_cyan", "y": 270},
+
+    "facing=north,half=bottom,shape=straight,powered=true": {"model": "industriallightmod:block/thin_horizontal_light_cyan", "y": 180},
+    "facing=south,half=bottom,shape=straight,powered=true": {"model": "industriallightmod:block/thin_horizontal_light_cyan"},
+    "facing=west,half=bottom,shape=straight,powered=true": {"model": "industriallightmod:block/thin_horizontal_light_cyan", "y": 90},
+    "facing=east,half=bottom,shape=straight,powered=true": {"model": "industriallightmod:block/thin_horizontal_light_cyan", "y": 270},
+
+    "facing=north,half=top,shape=straight,powered=false": {"model": "industriallightmod:block/thin_horizontal_light_top_off_cyan", "y": 180},
+    "facing=south,half=top,shape=straight,powered=false": {"model": "industriallightmod:block/thin_horizontal_light_top_off_cyan"},
+    "facing=west,half=top,shape=straight,powered=false": {"model": "industriallightmod:block/thin_horizontal_light_top_off_cyan","y": 90},
+    "facing=east,half=top,shape=straight,powered=false": {"model": "industriallightmod:block/thin_horizontal_light_top_off_cyan", "y": 270},
+
+    "facing=north,half=top,shape=straight,powered=true": {"model": "industriallightmod:block/thin_horizontal_light_top_cyan", "y": 180},
+    "facing=south,half=top,shape=straight,powered=true": {"model": "industriallightmod:block/thin_horizontal_light_top_cyan"},
+    "facing=west,half=top,shape=straight,powered=true": {"model": "industriallightmod:block/thin_horizontal_light_top_cyan","y": 90},
+    "facing=east,half=top,shape=straight,powered=true": {"model": "industriallightmod:block/thin_horizontal_light_top_cyan", "y": 270},
+
+    "facing=north,half=bottom,shape=inner_left,powered=false": {"model": "industriallightmod:block/thin_horizontal_light_inner_off_cyan","y": 180, "uvlock": true},
+    "facing=south,half=bottom,shape=inner_left,powered=false": {"model": "industriallightmod:block/thin_horizontal_light_inner_off_cyan", "uvlock": true},
+    "facing=west,half=bottom,shape=inner_left,powered=false": {"model": "industriallightmod:block/thin_horizontal_light_inner_off_cyan", "y": 90,"uvlock": true},
+    "facing=east,half=bottom,shape=inner_left,powered=false": {"model": "industriallightmod:block/thin_horizontal_light_inner_off_cyan", "y": 270, "uvlock": true},
+
+    "facing=north,half=bottom,shape=inner_left,powered=true": {"model": "industriallightmod:block/thin_horizontal_light_inner_cyan","y": 180, "uvlock": true},
+    "facing=south,half=bottom,shape=inner_left,powered=true": {"model": "industriallightmod:block/thin_horizontal_light_inner_cyan", "uvlock": true},
+    "facing=west,half=bottom,shape=inner_left,powered=true": {"model": "industriallightmod:block/thin_horizontal_light_inner_cyan", "y": 90,"uvlock": true},
+    "facing=east,half=bottom,shape=inner_left,powered=true": {"model": "industriallightmod:block/thin_horizontal_light_inner_cyan", "y": 270, "uvlock": true},
+
+    "facing=north,half=top,shape=inner_left,powered=false": {"model": "industriallightmod:block/thin_horizontal_light_inner_top_off_cyan","y": 180, "uvlock": true},
+    "facing=south,half=top,shape=inner_left,powered=false": {"model": "industriallightmod:block/thin_horizontal_light_inner_top_off_cyan", "uvlock": true},
+    "facing=west,half=top,shape=inner_left,powered=false": {"model": "industriallightmod:block/thin_horizontal_light_inner_top_off_cyan", "y": 90,"uvlock": true},
+    "facing=east,half=top,shape=inner_left,powered=false": {"model": "industriallightmod:block/thin_horizontal_light_inner_top_off_cyan", "y": 270, "uvlock": true},
+
+    "facing=north,half=top,shape=inner_left,powered=true": {"model": "industriallightmod:block/thin_horizontal_light_inner_top_cyan","y": 180, "uvlock": true},
+    "facing=south,half=top,shape=inner_left,powered=true": {"model": "industriallightmod:block/thin_horizontal_light_inner_top_cyan", "uvlock": true},
+    "facing=west,half=top,shape=inner_left,powered=true": {"model": "industriallightmod:block/thin_horizontal_light_inner_top_cyan", "y": 90,"uvlock": true},
+    "facing=east,half=top,shape=inner_left,powered=true": {"model": "industriallightmod:block/thin_horizontal_light_inner_top_cyan", "y": 270, "uvlock": true},
+
+
+    "facing=north,half=bottom,shape=inner_right,powered=false": {"model": "industriallightmod:block/thin_horizontal_light_inner_off_cyan","y": 270, "uvlock": true},
+    "facing=south,half=bottom,shape=inner_right,powered=false": {"model": "industriallightmod:block/thin_horizontal_light_inner_off_cyan","y": 90, "uvlock": true},
+    "facing=west,half=bottom,shape=inner_right,powered=false": {"model": "industriallightmod:block/thin_horizontal_light_inner_off_cyan","y": 180, "uvlock": true},
+    "facing=east,half=bottom,shape=inner_right,powered=false": {"model": "industriallightmod:block/thin_horizontal_light_inner_off_cyan", "uvlock": true},
+
+    "facing=north,half=bottom,shape=inner_right,powered=true": {"model": "industriallightmod:block/thin_horizontal_light_inner_cyan","y": 270, "uvlock": true},
+    "facing=south,half=bottom,shape=inner_right,powered=true": {"model": "industriallightmod:block/thin_horizontal_light_inner_cyan","y": 90, "uvlock": true},
+    "facing=west,half=bottom,shape=inner_right,powered=true": {"model": "industriallightmod:block/thin_horizontal_light_inner_cyan", "y": 180,"uvlock": true},
+    "facing=east,half=bottom,shape=inner_right,powered=true": {"model": "industriallightmod:block/thin_horizontal_light_inner_cyan", "uvlock": true},
+
+    "facing=north,half=top,shape=inner_right,powered=false": {"model": "industriallightmod:block/thin_horizontal_light_inner_top_off_cyan","y": 270, "uvlock": true},
+    "facing=south,half=top,shape=inner_right,powered=false": {"model": "industriallightmod:block/thin_horizontal_light_inner_top_off_cyan","y": 90, "uvlock": true},
+    "facing=west,half=top,shape=inner_right,powered=false": {"model": "industriallightmod:block/thin_horizontal_light_inner_top_off_cyan", "y": 180,"uvlock": true},
+    "facing=east,half=top,shape=inner_right,powered=false": {"model": "industriallightmod:block/thin_horizontal_light_inner_top_off_cyan", "uvlock": true},
+
+    "facing=north,half=top,shape=inner_right,powered=true": {"model": "industriallightmod:block/thin_horizontal_light_inner_top_cyan","y": 270, "uvlock": true},
+    "facing=south,half=top,shape=inner_right,powered=true": {"model": "industriallightmod:block/thin_horizontal_light_inner_top_cyan","y": 90, "uvlock": true},
+    "facing=west,half=top,shape=inner_right,powered=true": {"model": "industriallightmod:block/thin_horizontal_light_inner_top_cyan", "y": 180,"uvlock": true},
+    "facing=east,half=top,shape=inner_right,powered=true": {"model": "industriallightmod:block/thin_horizontal_light_inner_top_cyan", "uvlock": true},
+
+
+
+    "facing=north,half=bottom,shape=outer_left,powered=false": {"model": "industriallightmod:block/thin_horizontal_light_outer_off_cyan","y": 180, "uvlock": true},
+    "facing=south,half=bottom,shape=outer_left,powered=false": {"model": "industriallightmod:block/thin_horizontal_light_outer_off_cyan", "uvlock": true},
+    "facing=west,half=bottom,shape=outer_left,powered=false": {"model": "industriallightmod:block/thin_horizontal_light_outer_off_cyan", "y": 90,"uvlock": true},
+    "facing=east,half=bottom,shape=outer_left,powered=false": {"model": "industriallightmod:block/thin_horizontal_light_outer_off_cyan", "y": 270, "uvlock": true},
+
+    "facing=north,half=bottom,shape=outer_left,powered=true": {"model": "industriallightmod:block/thin_horizontal_light_outer_cyan","y": 180, "uvlock": true},
+    "facing=south,half=bottom,shape=outer_left,powered=true": {"model": "industriallightmod:block/thin_horizontal_light_outer_cyan", "uvlock": true},
+    "facing=west,half=bottom,shape=outer_left,powered=true": {"model": "industriallightmod:block/thin_horizontal_light_outer_cyan", "y": 90,"uvlock": true},
+    "facing=east,half=bottom,shape=outer_left,powered=true": {"model": "industriallightmod:block/thin_horizontal_light_outer_cyan", "y": 270, "uvlock": true},
+
+    "facing=north,half=top,shape=outer_left,powered=false": {"model": "industriallightmod:block/thin_horizontal_light_outer_top_off_cyan","y": 180, "uvlock": true},
+    "facing=south,half=top,shape=outer_left,powered=false": {"model": "industriallightmod:block/thin_horizontal_light_outer_top_off_cyan", "uvlock": true},
+    "facing=west,half=top,shape=outer_left,powered=false": {"model": "industriallightmod:block/thin_horizontal_light_outer_top_off_cyan", "y": 90,"uvlock": true},
+    "facing=east,half=top,shape=outer_left,powered=false": {"model": "industriallightmod:block/thin_horizontal_light_outer_top_off_cyan", "y": 270, "uvlock": true},
+
+    "facing=north,half=top,shape=outer_left,powered=true": {"model": "industriallightmod:block/thin_horizontal_light_outer_top_cyan","y": 180, "uvlock": true},
+    "facing=south,half=top,shape=outer_left,powered=true": {"model": "industriallightmod:block/thin_horizontal_light_outer_top_cyan", "uvlock": true},
+    "facing=west,half=top,shape=outer_left,powered=true": {"model": "industriallightmod:block/thin_horizontal_light_outer_top_cyan", "y": 90,"uvlock": true},
+    "facing=east,half=top,shape=outer_left,powered=true": {"model": "industriallightmod:block/thin_horizontal_light_outer_top_cyan", "y": 270, "uvlock": true},
+
+
+    "facing=north,half=bottom,shape=outer_right,powered=false": {"model": "industriallightmod:block/thin_horizontal_light_outer_off_cyan","y": 270, "uvlock": true},
+    "facing=south,half=bottom,shape=outer_right,powered=false": {"model": "industriallightmod:block/thin_horizontal_light_outer_off_cyan","y": 90, "uvlock": true},
+    "facing=west,half=bottom,shape=outer_right,powered=false": {"model": "industriallightmod:block/thin_horizontal_light_outer_off_cyan", "y": 180,"uvlock": true},
+    "facing=east,half=bottom,shape=outer_right,powered=false": {"model": "industriallightmod:block/thin_horizontal_light_outer_off_cyan", "uvlock": true},
+
+    "facing=north,half=bottom,shape=outer_right,powered=true": {"model": "industriallightmod:block/thin_horizontal_light_outer_cyan","y": 270, "uvlock": true},
+    "facing=south,half=bottom,shape=outer_right,powered=true": {"model": "industriallightmod:block/thin_horizontal_light_outer_cyan","y": 90, "uvlock": true},
+    "facing=west,half=bottom,shape=outer_right,powered=true": {"model": "industriallightmod:block/thin_horizontal_light_outer_cyan", "y": 180,"uvlock": true},
+    "facing=east,half=bottom,shape=outer_right,powered=true": {"model": "industriallightmod:block/thin_horizontal_light_outer_cyan", "uvlock": true},
+
+    "facing=north,half=top,shape=outer_right,powered=false": {"model": "industriallightmod:block/thin_horizontal_light_outer_top_off_cyan","y": 270, "uvlock": true},
+    "facing=south,half=top,shape=outer_right,powered=false": {"model": "industriallightmod:block/thin_horizontal_light_outer_top_off_cyan","y": 90, "uvlock": true},
+    "facing=west,half=top,shape=outer_right,powered=false": {"model": "industriallightmod:block/thin_horizontal_light_outer_top_off_cyan", "y": 180,"uvlock": true},
+    "facing=east,half=top,shape=outer_right,powered=false": {"model": "industriallightmod:block/thin_horizontal_light_outer_top_off_cyan", "uvlock": true},
+
+    "facing=north,half=top,shape=outer_right,powered=true": {"model": "industriallightmod:block/thin_horizontal_light_outer_top_cyan","y": 270, "uvlock": true},
+    "facing=south,half=top,shape=outer_right,powered=true": {"model": "industriallightmod:block/thin_horizontal_light_outer_top_cyan","y": 90, "uvlock": true},
+    "facing=west,half=top,shape=outer_right,powered=true": {"model": "industriallightmod:block/thin_horizontal_light_outer_top_cyan", "y": 180,"uvlock": true},
+    "facing=east,half=top,shape=outer_right,powered=true": {"model": "industriallightmod:block/thin_horizontal_light_outer_top_cyan", "uvlock": true}
+
+  }
+}

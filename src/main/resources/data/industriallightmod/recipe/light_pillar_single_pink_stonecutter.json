@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "industriallightmod:pink_lights"
+  },
+  "result": {
+    "count": 1,
+    "id": "industriallightmod:light_pillar_single_pink"
+  }
+}
+

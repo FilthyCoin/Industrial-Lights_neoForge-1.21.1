@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "industriallightmod:cyan_lights"
+  },
+  "result": {
+    "count": 1,
+    "id": "industriallightmod:centre_full_panel_cyan"
+  }
+}
+

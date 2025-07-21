@@ -1,0 +1,10 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "industriallightmod:block/light_pillar_bottom_white",
+	"textures": {
+		"0": "industriallightmod:block/full_panel_red_off",
+		"1": "industriallightmod:block/black_panel",
+		"2": "industriallightmod:block/black_back",
+		"particle": "industriallightmod:block/full_panel_red_off"
+	}
+}

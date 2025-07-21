@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "powered=false,part=bottom": {
+      "model": "industriallightmod:block/light_pillar_bottom_off_pink"
+    },
+    "powered=false,part=middle": {
+      "model": "industriallightmod:block/light_pillar_centre_off_pink"
+    },
+    "powered=false,part=top": {
+      "model": "industriallightmod:block/light_pillar_top_off_pink"
+    },
+    "powered=false,part=single": {
+      "model": "industriallightmod:block/light_pillar_single_off_pink"
+    },
+    "powered=true,part=bottom": {
+      "model": "industriallightmod:block/light_pillar_bottom_pink"
+    },
+    "powered=true,part=middle": {
+      "model": "industriallightmod:block/light_pillar_centre_pink"
+    },
+    "powered=true,part=top": {
+      "model": "industriallightmod:block/light_pillar_top_pink"
+    },
+    "powered=true,part=single": {
+      "model": "industriallightmod:block/light_pillar_single_pink"
+    }
+  }
+}

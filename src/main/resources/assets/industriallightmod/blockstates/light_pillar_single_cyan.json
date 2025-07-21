@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "powered=false,part=bottom": {
+      "model": "industriallightmod:block/light_pillar_bottom_off_cyan"
+    },
+    "powered=false,part=middle": {
+      "model": "industriallightmod:block/light_pillar_centre_off_cyan"
+    },
+    "powered=false,part=top": {
+      "model": "industriallightmod:block/light_pillar_top_off_cyan"
+    },
+    "powered=false,part=single": {
+      "model": "industriallightmod:block/light_pillar_single_off_cyan"
+    },
+    "powered=true,part=bottom": {
+      "model": "industriallightmod:block/light_pillar_bottom_cyan"
+    },
+    "powered=true,part=middle": {
+      "model": "industriallightmod:block/light_pillar_centre_cyan"
+    },
+    "powered=true,part=top": {
+      "model": "industriallightmod:block/light_pillar_top_cyan"
+    },
+    "powered=true,part=single": {
+      "model": "industriallightmod:block/light_pillar_single_cyan"
+    }
+  }
+}

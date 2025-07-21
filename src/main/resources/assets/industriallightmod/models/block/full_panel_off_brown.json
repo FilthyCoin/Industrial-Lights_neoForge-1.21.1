@@ -1,0 +1,8 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "industriallightmod:block/full_panel_white",
+	"textures": {
+		"1": "industriallightmod:block/full_panel_brown_off",
+		"particle": "industriallightmod:block/full_panel_brown_off"
+	}
+}

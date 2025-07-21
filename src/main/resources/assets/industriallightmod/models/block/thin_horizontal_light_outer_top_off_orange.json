@@ -1,0 +1,8 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "industriallightmod:block/thin_horizontal_light_outer_top_white",
+	"textures": {
+		"2": "industriallightmod:block/full_panel_orange_off",
+		"particle": "industriallightmod:block/full_panel_orange_off"
+	}
+}

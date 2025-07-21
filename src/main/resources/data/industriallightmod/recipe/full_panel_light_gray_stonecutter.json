@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "industriallightmod:light_gray_lights"
+  },
+  "result": {
+    "count": 1,
+    "id": "industriallightmod:full_panel_light_gray"
+  }
+}

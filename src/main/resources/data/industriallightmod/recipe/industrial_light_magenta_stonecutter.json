@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "industriallightmod:magenta_lights"
+  },
+  "result": {
+    "count": 1,
+    "id": "industriallightmod:industrial_light_magenta"
+  }
+}
+

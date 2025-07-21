@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "industriallightmod:full_panel_brown"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "industriallightmod:blocks/full_panel_brown"
+}

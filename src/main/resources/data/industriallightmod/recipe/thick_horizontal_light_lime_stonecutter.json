@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "industriallightmod:lime_lights"
+  },
+  "result": {
+    "count": 1,
+    "id": "industriallightmod:thick_horizontal_light_lime"
+  }
+}
+
