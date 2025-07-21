@@ -1,0 +1,29 @@
+
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "Y": {
+      "tag": "minecraft:stone_buttons"
+    },
+    "X": {
+      "item": "minecraft:iron_nugget"
+    },
+    "Z": {
+      "item": "minecraft:string"
+    }
+  },
+  "pattern": [
+    " XZ",
+    " #X",
+    "Y  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "industriallightmod:light_wrench"
+  }
+}
+

@@ -1,0 +1,26 @@
+
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:glass_pane"
+    },
+    "Y": {
+      "item": "minecraft:iron_nugget"
+    },
+    "X": {
+      "item": "minecraft:glowstone_dust"
+    }
+  },
+  "pattern": [
+    "YX#",
+    " X#",
+    "YX#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "industriallightmod:banner_sign_white"
+  }
+}
+

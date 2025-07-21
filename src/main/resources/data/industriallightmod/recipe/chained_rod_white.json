@@ -1,0 +1,26 @@
+
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:glass_pane"
+    },
+    "Y": {
+      "item": "minecraft:chain"
+    },
+    "X": {
+      "item": "minecraft:glowstone_dust"
+    }
+  },
+  "pattern": [
+
+    "XYX",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "industriallightmod:chained_rod_white"
+  }
+}
+

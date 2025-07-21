@@ -1,0 +1,29 @@
+{
+  "variants": {
+    "powered=false,face=wall,facing=north": { "model": "industriallightmod:block/banner_sign_wall_off_light_gray","y":  180},
+    "powered=false,face=wall,facing=south": { "model": "industriallightmod:block/banner_sign_wall_off_light_gray"},
+    "powered=false,face=wall,facing=west": { "model": "industriallightmod:block/banner_sign_wall_off_light_gray","y":  90},
+    "powered=false,face=wall,facing=east": { "model": "industriallightmod:block/banner_sign_wall_off_light_gray","y":  270},
+    "powered=false,face=ceiling,facing=north": { "model": "industriallightmod:block/banner_sign_ceiling_off_light_gray"},
+    "powered=false,face=ceiling,facing=south": { "model": "industriallightmod:block/banner_sign_ceiling_off_light_gray","y":  180},
+    "powered=false,face=ceiling,facing=west": { "model": "industriallightmod:block/banner_sign_ceiling_off_light_gray","y":  270},
+    "powered=false,face=ceiling,facing=east": { "model": "industriallightmod:block/banner_sign_ceiling_off_light_gray","y":  90},
+    "powered=false,face=floor,facing=north": { "model": "industriallightmod:block/banner_sign_floor_off_light_gray",  "y":  180 },
+    "powered=false,face=floor,facing=south": { "model": "industriallightmod:block/banner_sign_floor_off_light_gray"},
+    "powered=false,face=floor,facing=west": { "model": "industriallightmod:block/banner_sign_floor_off_light_gray", "y":  90 },
+    "powered=false,face=floor,facing=east": { "model": "industriallightmod:block/banner_sign_floor_off_light_gray", "y":  270 },
+
+    "powered=true,face=wall,facing=north": { "model": "industriallightmod:block/banner_sign_wall_light_gray","y":  180},
+    "powered=true,face=wall,facing=south": { "model": "industriallightmod:block/banner_sign_wall_light_gray"},
+    "powered=true,face=wall,facing=west": { "model": "industriallightmod:block/banner_sign_wall_light_gray","y":  90},
+    "powered=true,face=wall,facing=east": { "model": "industriallightmod:block/banner_sign_wall_light_gray","y":  270},
+    "powered=true,face=ceiling,facing=north": { "model": "industriallightmod:block/banner_sign_ceiling_light_gray"},
+    "powered=true,face=ceiling,facing=south": { "model": "industriallightmod:block/banner_sign_ceiling_light_gray","y":  180},
+    "powered=true,face=ceiling,facing=west": { "model": "industriallightmod:block/banner_sign_ceiling_light_gray","y":  270},
+    "powered=true,face=ceiling,facing=east": { "model": "industriallightmod:block/banner_sign_ceiling_light_gray","y":  90},
+    "powered=true,face=floor,facing=north": { "model": "industriallightmod:block/banner_sign_floor_light_gray" , "y":  180 },
+    "powered=true,face=floor,facing=south": { "model": "industriallightmod:block/banner_sign_floor_light_gray"},
+    "powered=true,face=floor,facing=west": { "model": "industriallightmod:block/banner_sign_floor_light_gray", "y":  90 },
+    "powered=true,face=floor,facing=east": { "model": "industriallightmod:block/banner_sign_floor_light_gray",  "y":  270 }
+  }
+}

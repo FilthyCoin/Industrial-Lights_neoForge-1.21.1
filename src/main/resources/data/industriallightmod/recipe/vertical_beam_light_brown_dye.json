@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "industriallightmod:vertical_beam_lights"
+    },
+    {
+      "tag": "c:dyes/brown"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "industriallightmod:vertical_beam_light_brown"
+  }
+}
+

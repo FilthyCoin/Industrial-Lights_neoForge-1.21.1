@@ -1,0 +1,29 @@
+{
+  "variants": {
+    "powered=false,face=wall,facing=north": { "model": "industriallightmod:block/vertical_beam_light_wall_off_purple"},
+    "powered=false,face=wall,facing=south": { "model": "industriallightmod:block/vertical_beam_light_wall_off_purple","y":  180},
+    "powered=false,face=wall,facing=west": { "model": "industriallightmod:block/vertical_beam_light_wall_off_purple","y":  270},
+    "powered=false,face=wall,facing=east": { "model": "industriallightmod:block/vertical_beam_light_wall_off_purple","y":  90},
+    "powered=false,face=ceiling,facing=north": { "model": "industriallightmod:block/vertical_beam_light_off_purple", "x": 180, "z": 90  },
+    "powered=false,face=ceiling,facing=south": { "model": "industriallightmod:block/vertical_beam_light_off_purple", "x": 180, "y":  180, "z": 90 },
+    "powered=false,face=ceiling,facing=west": { "model": "industriallightmod:block/vertical_beam_light_off_purple", "x": 180, "y":  270, "z": 90 },
+    "powered=false,face=ceiling,facing=east": { "model": "industriallightmod:block/vertical_beam_light_off_purple", "x": 180, "y":  90, "z": 90 },
+    "powered=false,face=floor,facing=north": { "model": "industriallightmod:block/vertical_beam_light_off_purple",  "y":  180 },
+    "powered=false,face=floor,facing=south": { "model": "industriallightmod:block/vertical_beam_light_off_purple"},
+    "powered=false,face=floor,facing=west": { "model": "industriallightmod:block/vertical_beam_light_off_purple", "y":  90 },
+    "powered=false,face=floor,facing=east": { "model": "industriallightmod:block/vertical_beam_light_off_purple", "y":  270 },
+
+    "powered=true,face=wall,facing=north": { "model": "industriallightmod:block/vertical_beam_light_purple","x":  90},
+    "powered=true,face=wall,facing=south": { "model": "industriallightmod:block/vertical_beam_light_purple","x":  90,"y":  180},
+    "powered=true,face=wall,facing=west": { "model": "industriallightmod:block/vertical_beam_light_purple","x":  90,"y":  270},
+    "powered=true,face=wall,facing=east": { "model": "industriallightmod:block/vertical_beam_light_purple","x":  90,"y":  90},
+    "powered=true,face=ceiling,facing=north": { "model": "industriallightmod:block/vertical_beam_light_purple", "x": 180, "z": 90  },
+    "powered=true,face=ceiling,facing=south": { "model": "industriallightmod:block/vertical_beam_light_purple", "x": 180, "y":  180, "z": 90 },
+    "powered=true,face=ceiling,facing=west": { "model": "industriallightmod:block/vertical_beam_light_purple", "x": 180, "y":  270, "z": 90 },
+    "powered=true,face=ceiling,facing=east": { "model": "industriallightmod:block/vertical_beam_light_purple", "x": 180, "y":  90, "z": 90 },
+    "powered=true,face=floor,facing=north": { "model": "industriallightmod:block/vertical_beam_light_purple" , "y":  180 },
+    "powered=true,face=floor,facing=south": { "model": "industriallightmod:block/vertical_beam_light_purple"},
+    "powered=true,face=floor,facing=west": { "model": "industriallightmod:block/vertical_beam_light_purple", "y":  90 },
+    "powered=true,face=floor,facing=east": { "model": "industriallightmod:block/vertical_beam_light_purple",  "y":  270 }
+  }
+}

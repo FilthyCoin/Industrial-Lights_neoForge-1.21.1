@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "industriallightmod:chained_rods"
+    },
+    {
+      "tag": "c:dyes/light_gray"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "industriallightmod:chained_rod_light_gray"
+  }
+}
+

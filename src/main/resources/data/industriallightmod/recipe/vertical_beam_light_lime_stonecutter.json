@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "industriallightmod:lime_lights"
+  },
+  "result": {
+    "count": 1,
+    "id": "industriallightmod:vertical_beam_light_lime"
+  }
+}
+

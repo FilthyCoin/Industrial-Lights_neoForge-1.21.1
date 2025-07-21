@@ -10,7 +10,7 @@ public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(IndustrialLightMod.MOD_ID);
 
     public static final DeferredItem<Item> LIGHT_WRENCH = ITEMS.registerItem("light_wrench",
-            Item::new, new Item.Properties());
+            Item::new, new Item.Properties().stacksTo(1));
 
     public static void register (IEventBus eventBus) {
         ITEMS.register(eventBus);

@@ -1,0 +1,10 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "industriallightmod:block/chained_rod_floor_white",
+	"textures": {
+		"0": "industriallightmod:block/full_panel_light_blue",
+		"1": "block/chain",
+		"2": "industriallightmod:block/black_panel",
+		"particle": "industriallightmod:block/full_panel_light_blue"
+	}
+}

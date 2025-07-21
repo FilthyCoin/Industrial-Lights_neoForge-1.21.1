@@ -1,0 +1,9 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "industriallightmod:block/chunky_full_panel_white",
+	"textures": {
+		"0": "industriallightmod:block/full_panel_green_off",
+		"1": "block/gray_concrete",
+		"particle": "industriallightmod:block/full_panel_green_off"
+	}
+}

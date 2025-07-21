@@ -1,0 +1,25 @@
+
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:glass_pane"
+    },
+    "Y": {
+      "item": "minecraft:gray_concrete"
+    },
+    "X": {
+      "item": "minecraft:glowstone_dust"
+    }
+  },
+  "pattern": [
+    "###",
+    "YXY"
+  ],
+  "result": {
+    "count": 1,
+    "id": "industriallightmod:chunky_full_panel_white"
+  }
+}
+

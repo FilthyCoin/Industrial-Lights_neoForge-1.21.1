@@ -1,0 +1,8 @@
+{
+	"parent": "industriallightmod:block/vertical_beam_light_wall_white",
+	"textures": {
+		"0": "industriallightmod:block/full_panel_black_off",
+		"1": "industriallightmod:block/black_panel",
+		"particle": "industriallightmod:block/full_panel_black_off"
+	}
+}

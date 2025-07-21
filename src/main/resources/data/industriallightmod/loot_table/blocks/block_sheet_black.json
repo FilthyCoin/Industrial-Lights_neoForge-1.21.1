@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "industriallightmod:block_sheet_black"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "industriallightmod:blocks/block_sheet_black"
+}

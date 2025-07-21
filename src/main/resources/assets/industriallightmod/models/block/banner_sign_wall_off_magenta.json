@@ -1,0 +1,9 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "industriallightmod:block/banner_sign_wall_white",
+	"textures": {
+		"0": "industriallightmod:block/full_panel_magenta_off",
+		"1": "industriallightmod:block/grey_panel",
+		"particle": "industriallightmod:block/full_panel_magenta_off"
+	}
+}

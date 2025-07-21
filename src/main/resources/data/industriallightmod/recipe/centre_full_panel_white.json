@@ -1,0 +1,25 @@
+
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:glass_pane"
+    },
+    "Y": {
+      "tag": "minecraft:stone_buttons"
+    },
+    "X": {
+      "item": "minecraft:glowstone_dust"
+    }
+  },
+  "pattern": [
+    "###",
+    "XYX"
+  ],
+  "result": {
+    "count": 1,
+    "id": "industriallightmod:centre_full_panel_white"
+  }
+}
+

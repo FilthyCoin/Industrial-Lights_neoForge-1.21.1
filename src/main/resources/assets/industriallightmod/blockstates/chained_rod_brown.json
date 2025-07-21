@@ -1,0 +1,29 @@
+{
+  "variants": {
+    "powered=false,face=wall,facing=north": { "model": "industriallightmod:block/chained_rod_wall_off_brown","y":  180},
+    "powered=false,face=wall,facing=south": { "model": "industriallightmod:block/chained_rod_wall_off_brown"},
+    "powered=false,face=wall,facing=west": { "model": "industriallightmod:block/chained_rod_wall_off_brown","y":  90},
+    "powered=false,face=wall,facing=east": { "model": "industriallightmod:block/chained_rod_wall_off_brown","y":  270},
+    "powered=false,face=ceiling,facing=north": { "model": "industriallightmod:block/chained_rod_off_brown"},
+    "powered=false,face=ceiling,facing=south": { "model": "industriallightmod:block/chained_rod_off_brown","y":  180},
+    "powered=false,face=ceiling,facing=west": { "model": "industriallightmod:block/chained_rod_off_brown","y":  270},
+    "powered=false,face=ceiling,facing=east": { "model": "industriallightmod:block/chained_rod_off_brown","y":  90},
+    "powered=false,face=floor,facing=north": { "model": "industriallightmod:block/chained_rod_floor_off_brown",  "y":  180 },
+    "powered=false,face=floor,facing=south": { "model": "industriallightmod:block/chained_rod_floor_off_brown"},
+    "powered=false,face=floor,facing=west": { "model": "industriallightmod:block/chained_rod_floor_off_brown", "y":  90 },
+    "powered=false,face=floor,facing=east": { "model": "industriallightmod:block/chained_rod_floor_off_brown", "y":  270 },
+
+    "powered=true,face=wall,facing=north": { "model": "industriallightmod:block/chained_rod_wall_brown","y":  180},
+    "powered=true,face=wall,facing=south": { "model": "industriallightmod:block/chained_rod_wall_brown"},
+    "powered=true,face=wall,facing=west": { "model": "industriallightmod:block/chained_rod_wall_brown","y":  90},
+    "powered=true,face=wall,facing=east": { "model": "industriallightmod:block/chained_rod_wall_brown","y":  270},
+    "powered=true,face=ceiling,facing=north": { "model": "industriallightmod:block/chained_rod_brown"},
+    "powered=true,face=ceiling,facing=south": { "model": "industriallightmod:block/chained_rod_brown","y":  180},
+    "powered=true,face=ceiling,facing=west": { "model": "industriallightmod:block/chained_rod_brown","y":  270},
+    "powered=true,face=ceiling,facing=east": { "model": "industriallightmod:block/chained_rod_brown","y":  90},
+    "powered=true,face=floor,facing=north": { "model": "industriallightmod:block/chained_rod_floor_brown" , "y":  180 },
+    "powered=true,face=floor,facing=south": { "model": "industriallightmod:block/chained_rod_floor_brown"},
+    "powered=true,face=floor,facing=west": { "model": "industriallightmod:block/chained_rod_floor_brown", "y":  90 },
+    "powered=true,face=floor,facing=east": { "model": "industriallightmod:block/chained_rod_floor_brown",  "y":  270 }
+  }
+}

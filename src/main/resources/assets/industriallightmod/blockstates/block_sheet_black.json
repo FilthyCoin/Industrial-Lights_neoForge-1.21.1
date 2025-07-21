@@ -1,0 +1,29 @@
+{
+  "variants": {
+    "powered=false,face=wall,facing=north": { "model": "industriallightmod:block/block_sheet_wall_off_black","y":  180},
+    "powered=false,face=wall,facing=south": { "model": "industriallightmod:block/block_sheet_wall_off_black"},
+    "powered=false,face=wall,facing=west": { "model": "industriallightmod:block/block_sheet_wall_off_black","y":  90},
+    "powered=false,face=wall,facing=east": { "model": "industriallightmod:block/block_sheet_wall_off_black","y":  270},
+    "powered=false,face=ceiling,facing=north": { "model": "industriallightmod:block/block_sheet_floor_off_black"},
+    "powered=false,face=ceiling,facing=south": { "model": "industriallightmod:block/block_sheet_floor_off_black","y":  180},
+    "powered=false,face=ceiling,facing=west": { "model": "industriallightmod:block/block_sheet_floor_off_black","y":  270},
+    "powered=false,face=ceiling,facing=east": { "model": "industriallightmod:block/block_sheet_floor_off_black","y":  90},
+    "powered=false,face=floor,facing=north": { "model": "industriallightmod:block/block_sheet_floor_off_black",  "y":  180 },
+    "powered=false,face=floor,facing=south": { "model": "industriallightmod:block/block_sheet_floor_off_black"},
+    "powered=false,face=floor,facing=west": { "model": "industriallightmod:block/block_sheet_floor_off_black", "y":  90 },
+    "powered=false,face=floor,facing=east": { "model": "industriallightmod:block/block_sheet_floor_off_black", "y":  270 },
+
+    "powered=true,face=wall,facing=north": { "model": "industriallightmod:block/block_sheet_wall_black","y":  180},
+    "powered=true,face=wall,facing=south": { "model": "industriallightmod:block/block_sheet_wall_black"},
+    "powered=true,face=wall,facing=west": { "model": "industriallightmod:block/block_sheet_wall_black","y":  90},
+    "powered=true,face=wall,facing=east": { "model": "industriallightmod:block/block_sheet_wall_black","y":  270},
+    "powered=true,face=ceiling,facing=north": { "model": "industriallightmod:block/block_sheet_floor_black"},
+    "powered=true,face=ceiling,facing=south": { "model": "industriallightmod:block/block_sheet_floor_black","y":  180},
+    "powered=true,face=ceiling,facing=west": { "model": "industriallightmod:block/block_sheet_floor_black","y":  270},
+    "powered=true,face=ceiling,facing=east": { "model": "industriallightmod:block/block_sheet_floor_black","y":  90},
+    "powered=true,face=floor,facing=north": { "model": "industriallightmod:block/block_sheet_floor_black" , "y":  180 },
+    "powered=true,face=floor,facing=south": { "model": "industriallightmod:block/block_sheet_floor_black"},
+    "powered=true,face=floor,facing=west": { "model": "industriallightmod:block/block_sheet_floor_black", "y":  90 },
+    "powered=true,face=floor,facing=east": { "model": "industriallightmod:block/block_sheet_floor_black",  "y":  270 }
+  }
+}

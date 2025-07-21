@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "industriallightmod:blue_lights"
+  },
+  "result": {
+    "count": 1,
+    "id": "industriallightmod:chunky_full_panel_blue"
+  }
+}
+

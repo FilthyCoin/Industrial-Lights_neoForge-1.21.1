@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "industriallightmod:light_blue_lights"
+  },
+  "result": {
+    "count": 1,
+    "id": "industriallightmod:hanging_rod_light_blue"
+  }
+}
+

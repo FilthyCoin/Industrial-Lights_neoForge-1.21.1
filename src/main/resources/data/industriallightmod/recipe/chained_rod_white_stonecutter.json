@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "industriallightmod:white_lights"
+  },
+  "result": {
+    "count": 1,
+    "id": "industriallightmod:chained_rod_white"
+  }
+}
+
