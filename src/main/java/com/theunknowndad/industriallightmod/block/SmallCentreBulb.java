@@ -43,6 +43,6 @@ public class SmallCentreBulb extends BlockUtil {
     // Override the block name prefix for dyeing functionality
     @Override
     protected String getBlockNamePrefix() {
-        return "centre_full_panel";
+        return "small_centre_bulb";
     }
 }

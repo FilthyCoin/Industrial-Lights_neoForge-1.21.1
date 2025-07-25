@@ -66,6 +66,6 @@ public class VerticalBeam extends BlockUtil {
     // Override the block name prefix for dyeing functionality
     @Override
     protected String getBlockNamePrefix() {
-        return "centre_full_panel";
+        return "vertical_beam_light";
     }
 }

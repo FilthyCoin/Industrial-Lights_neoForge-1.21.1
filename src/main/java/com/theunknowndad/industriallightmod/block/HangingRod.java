@@ -41,6 +41,6 @@ public class HangingRod extends BlockUtil {
     // Override the block name prefix for dyeing functionality
     @Override
     protected String getBlockNamePrefix() {
-        return "centre_full_panel";
+        return "hanging_rod";
     }
 }
